@@ -8,7 +8,6 @@ const server = createServer((req, res) => {
 
 server.listen(3000)
 
-
 import { createServer} from 'node:http'
 const server = createServer((req, res) => {
     if (req.url === '/users' && req.method === 'GET') {
