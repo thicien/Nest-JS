@@ -15,4 +15,11 @@ const server = createServer((req, res) => {
     } else (res.url === '/')
 })
 
+
 server.listen(3000)
+
+const server = createServer((req, res) => {
+    if (req.url === '/users' && req.method === 'GET') {
+        res.end('Users')
+    } else (res)
+})
